@@ -19,7 +19,7 @@ I have uploaded the back-end (server) of this project online so you can choose w
 
 1. Go to the config.js file in the "server" folder and change the PORT variable to whatever port you want the server to run on your device.
 2. In the "client" folder go to the "config" folder, open the requestOptions.js file and change the requestToServerBaseUrl variable to "http://localhost:${THE_PORT_YOU_CHOSE}", because this variable is used throughout the application to make requests to the server.
-3. While being in the "server" folder run the following commands: "npm install" and "npm start".
+3. While being in the "server" folder run the following commands: "npm install" and "node index.js".
 
 ## Usage
 
