@@ -1,0 +1,81 @@
+.bannerSection {
+  width: 100%;
+  height: 400px;
+  background: rgba(0, 0, 0, 0.4);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  border-radius: 5px;
+}
+
+.movieInfoContainer {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 700px;
+  margin: auto;
+}
+
+.movieInfoImg {
+  max-width: 200px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.movieInfo {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+.primaryBtn {
+  display: block;
+}
+
+.movieBtnContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+@media screen and (max-width: 750px) {
+  .movieInfoContainer {
+    padding: 50px 0;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    max-width: 400px;
+  }
+  .primaryBtn {
+    display: block;
+    margin: auto;
+  }
+  .movieBtnContainer {
+    margin: auto;
+    margin-top: 10px;
+  }
+  .movieInfo {
+    width: 100%;
+  }
+  .bannerSection {
+    display: none;
+  }
+  .bannerTitle {
+    font-size: 20px;
+    text-align: center;
+  }
+  .bannerSummary {
+    font-size: 15px;
+  }
+
+  .bannerDate {
+    font-size: 15px;
+  }
+  .movieInfoImg {
+    max-width: 400px;
+    width: 100%;
+  }
+}

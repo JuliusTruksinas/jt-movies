@@ -1,0 +1,47 @@
+.mainPageContainer {
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  color: var(--lightColor);
+}
+
+.mainPageLeft {
+  background-color: var(--backgroundColor);
+  width: 600px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainPageLeftContainer {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainPageRight {
+  object-fit: cover;
+  background-image: url("/images/background.jpg");
+  flex-grow: 1;
+  background-position: middle right;
+}
+.mainPageContainer .logo {
+  width: 200px;
+  margin-bottom: 50px;
+}
+
+.authContainer {
+  width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .mainPageRight {
+    display: none;
+  }
+  .mainPageLeft {
+    width: 100%;
+  }
+}

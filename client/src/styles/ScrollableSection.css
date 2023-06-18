@@ -1,0 +1,44 @@
+/* scrollableSection */
+
+.scrollableSection {
+  margin-bottom: 40px;
+  position: relative;
+  overflow-x: scroll;
+}
+
+.scrollableSectionTitle {
+  margin-bottom: 10px;
+}
+
+.scrollableSection .movies {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.movieContainer {
+  min-width: 180px;
+  margin-bottom: 8px;
+  user-select: none;
+}
+
+/* Scroll bar customizations */
+.scrollableSection::-webkit-scrollbar {
+  width: 20px;
+}
+
+.scrollableSection::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.scrollableSection::-webkit-scrollbar-thumb {
+  background-color: #d6dee1;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+@media screen and (max-width: 500px) {
+  .scrollableSection::-webkit-scrollbar {
+    display: none;
+  }
+}

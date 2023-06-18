@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+
+:root {
+  --primaryColor: #ff6b00;
+  --backgroundColor: rgb(3, 7, 17);
+  --lightColor: #e5e7eb;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-color: var(--backgroundColor);
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.primaryColor {
+  background-color: var(--primaryColor);
+}

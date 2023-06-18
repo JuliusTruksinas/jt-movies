@@ -1,0 +1,7 @@
+.pageContainer {
+  color: var(--lightColor);
+  max-width: 1600px;
+  display: block;
+  margin: auto;
+  padding: 15px 40px;
+}

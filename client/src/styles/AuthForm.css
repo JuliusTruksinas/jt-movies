@@ -1,0 +1,51 @@
+.formRow {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+
+.submitBtn {
+  background-color: var(--primaryColor);
+  outline: none;
+  border: none;
+  color: var(--lightColor);
+  padding: 8px 40px;
+  margin-top: 5px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.authTitle {
+  margin-bottom: 10px;
+  font-weight: 200;
+}
+
+.formRow input {
+  padding: 8px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  font-size: 15px;
+  width: 100%;
+}
+
+.formRow label {
+  font-size: 14px;
+}
+
+.authChange {
+  color: var(--primaryColor);
+  text-decoration: underline;
+  cursor: pointer;
+  user-select: none;
+}
+.formText {
+  margin-top: 20px;
+}
+
+.error {
+  margin-top: 20px;
+  padding: 10px;
+  border: 2px solid rgb(227, 63, 63);
+  border-radius: 5px;
+  color: rgb(227, 63, 63);
+}

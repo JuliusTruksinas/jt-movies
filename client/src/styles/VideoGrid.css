@@ -1,0 +1,33 @@
+.videoGridContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 100%;
+  gap: 30px;
+}
+
+.videoComponent {
+  height: 250px;
+  background-color: red;
+}
+
+@media screen and (max-width: 950px) {
+  .videoGridContainer {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .videoGridContainer {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .videoGridContainer {
+    grid-template-columns: 1fr;
+  }
+}
+
+.videoGridContainer .MovieCardContainer .movieTitle {
+  font-size: 30px;
+}

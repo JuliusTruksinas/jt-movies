@@ -1,0 +1,43 @@
+.movieContainer {
+  position: relative;
+}
+
+.movieContainer img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.movieTitle {
+  font-weight: 500;
+  margin-left: 5px;
+  font-size: 14px;
+}
+
+.movieDate {
+  margin-left: 5px;
+  font-weight: 200;
+  color: rgb(189, 187, 187);
+  font-size: 12px;
+}
+
+.movieRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.movieLike {
+  min-width: 25px;
+  max-width: 25px;
+  cursor: pointer;
+}
+
+.movieRating {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: var(--primaryColor);
+  padding: 5px 5px;
+  border-radius: 5px;
+}

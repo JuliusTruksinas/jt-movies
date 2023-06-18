@@ -1,0 +1,50 @@
+.heroSection {
+  width: 100%;
+  height: 400px;
+  background-image: url("/images/spiderman.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+}
+
+.mainMoviesTitle {
+  margin-bottom: 20px;
+}
+
+.footer {
+  text-align: center;
+  margin-bottom: 20px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.footer h1 {
+  font-weight: 200;
+}
+
+.primaryBtn {
+  background-color: var(--primaryColor);
+  outline: none;
+  border: none;
+  color: var(--lightColor);
+  padding: 8px 40px;
+  margin-top: 5px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 650px) {
+  .heroSection {
+    display: none;
+  }
+}
